@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+#name{
+    color: white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: Cursive;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 30px;
+    align-items: center;
+    /* padding-left:30px ; */
+}
+#name:hover{
+    color: rgb(255, 128, 0);
+}
+.nav{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.nav:hover{
+    color: rgb(255, 128, 0);
+}
+#a{
+    padding-top: 30px;
+}
+
+#l1{
+    width: 50%;
+    float: left;
+
+}
+#l2{
+    width: 50%;
+    float: right;
+    
+}
+#hlo{
+    color: rgb(255, 128, 0);
+    font-size: 22px;;
+    font-family: Cursive;
+    margin-top: 150px;
+    margin-left: 250px;;
+
+}
+#fn,#ln{
+    color: rgb(255, 128, 0);
+    font-size: 50px;
+
+}
+#intro{
+    color: white;
+    font-size: 50px;
+    
+}
+#role{
+    color: rgba(255, 255, 255, 0.473);
+}
+#btn1,#btn2{
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    border: 0vh;
+    font-weight: bold;
+}
+
+#image_{
+    width: 300px;
+    height: 500px;
+    margin-left: 60px;;
+}
+#about{
+    
+    margin-top: 600px;;
+    
+}
+.me{
+    font-family: cursive;
+    margin-left: 40%;
+    font-size: 36px;
+    color: white;
+    font-weight:bold;
+}
+#mca{
+    font-family: cursive;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.473);
+    margin-bottom: 30px;
+}
+#content{
+    color: rgba(255, 255, 255, 0.473);
+    margin-left: 450px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: cursive;
+}
+#title{
+    color: white;
+    font-family: cursive;
+}
+#btn3{
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    margin-left: 43%;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border: 0vh;
+    font-weight: bold;
+    background-color: orange;
+}
