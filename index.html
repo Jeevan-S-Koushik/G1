@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -17,9 +18,9 @@
         <div id="a">
             <a href="" class="nav">Home</a>
             <a href="#about" class="nav">About</a>
-            <a href="" class="nav">Resume</a>
-            <a href="" class="nav">Skills</a>
-            <a href="" class="nav">Projects</a>
+            <a href="#resume" class="nav">Resume</a>
+            <a href="#skills" class="nav">Skills</a>
+            <a href="#project" class="nav">Projects</a>
             <a href="" class="nav">Contact</a>
         </div>
     </center>
@@ -54,8 +55,100 @@
         <p id="content"> <span
                 id="title">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             6362050849</p>
+            <!-- <p id="content"> <span
+                id="title">Projects:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <p id="counter"> 0</p></p> -->
+
+            
+            
+
+        <script>
+            // JavaScript to update the counter value
+            const counterElement = document.getElementById('counter');
+            const targetNumber = 10;
+            let currentNumber = 0;
+        
+            function updateCounter() {
+              currentNumber += 1;
+              counterElement.textContent = currentNumber;
+        
+              if (currentNumber < targetNumber) {
+                requestAnimationFrame(updateCounter);
+              } else {
+                counterElement.textContent = targetNumber;
+              }
+            }
+        
+            // Start the counting animation
+            updateCounter();
+          </script>
         <input type="button" value="DOWNLOAD CV" id="btn3">
     </div>
+
+    <div id="resume">
+        <p class="me_resume" id="resume">RESUME</p>
+        <p id="mca_resume">This is where you can discover information about my Education.</p>
+
+        <div id="left_">
+            <p id="edu">
+                <span id="year">2022-2019</span><br>
+                Master of Computer Applications <br>
+                <span id="clg"> BAPUJI INSTITUTE OF ENGINEERING AND TECHNOLOGY</span>
+            </p>
+        </div>
+        <div id="right_">
+            <p id="edu">
+                <span id="year">2019-2022</span><br>
+                Bachelor of Computer Applications <br>
+                <span id="clg"> BAPUJI INSTITUTE OF HI-TECH EDUCATION</span>
+            </p>        
+        </div>
+        <div id="left_">
+            <p id="edu">
+                <span id="year">2018-2019</span><br>
+                PUC(PCMB) <br>
+                <span id="clg"> DRM SCIENCE PU COLLEGE</span>
+            </p>        
+        </div>
+        <div id="right_">
+            <p id="edu">
+                <span id="year">2016-2017</span><br>
+                SSLC <br>
+                <span id="clg"> BEA HIGH SCHOOL</span>
+            </p>        
+        </div>
+    </div>
+    <input type="button" value="DOWNLOAD CV" id="btn3">
+
+
+    <div id="skills">
+        <p class="me_skills" id="skills">SKILLS</p>
+        <p id="mca_skills">This is where you can discover information about my SKILLS.</p>
+
+        <div id="sk1">
+            <p>HTML</p>
+            <progress value="95" max="100" ></progress>
+            <p>CSS</p>
+            <progress value="80" max="100" ></progress>
+            <p>JAVASCRIPT</p>
+            <progress value="60" max="100" ></progress>
+        </div>
+        <div id="sk2">
+            <p>C++</p>
+            <progress value="95" max="100" ></progress>
+            <p>Python</p>
+            <progress value="80" max="100" ></progress>
+            <p>DATASTRUCTURES</p>
+            <progress value="70" max="100" ></progress>
+        </div>
+    </div>
+
+    <div id="project">
+        <p class="me_project" id="project">PROJECTS</p>
+        <p id="mca_project">This is where you can discover information about my PROJECTS.</p>
+
+        
+
 </body>
 
 </html>
