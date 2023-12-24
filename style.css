@@ -433,7 +433,7 @@ progress {
         color: white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-decoration: none;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         font-weight: bold;
         font-size: 14px;
     }
@@ -503,16 +503,16 @@ progress {
     }
     .me{
         font-family: cursive;
-        margin-left: 45%;
+        margin-left: 50%;
         font-size: 36px;
         color: white;
         font-weight:bold;
     }
     #mca{
         font-family: cursive;
-        padding-left: 10%;
-        padding-right: 5%;
-        font-size: 16px;
+        /* padding-left: 10%;
+        padding-right: 5%; */
+        font-size: 12px;
         color: rgba(255, 255, 255, 0.473);
         margin-bottom: 30px;
     }
@@ -646,7 +646,7 @@ progress {
         padding-top: 10px;
         padding-bottom: 20px;
         /* border: 1px solid white; */
-        width: 40%;
+        width: 50%;
         background-color: rgba(105, 105, 105, 0.185);
         border-radius: 10px;
     }
@@ -661,7 +661,7 @@ progress {
         padding-top: 10px;
         padding-bottom: 20px;
         /* border: 1px solid white; */
-        width: 70%;
+        width: 100%;
         font-size: 20px;
         font-weight: bold;
         font-family: monospace;
