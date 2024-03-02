@@ -1,78 +1,74 @@
-body {
+body{
     background-color: black;
 }
-
-html {
+html{
     scroll-behavior: smooth;
     scroll-padding: 5rem;
 }
 
-#name {
+
+#name{
     color: white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-family: Cursive;
     font-weight: bold;
     font-size: 22px;
     margin-left: 50px;
     margin-top: 30px;
     align-items: center;
+    /* padding-left:30px ; */
 }
-
-#name:hover {
+#name:hover{
     color: rgb(255, 128, 0);
 }
-
-.nav {
+.nav{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     padding-left: 30px;
     font-weight: bold;
     font-size: 18px;
+    
 }
-
-.nav:hover {
+.nav:hover{
     color: rgb(255, 128, 0);
 }
-
-#a {
+#a{
     padding-top: 30px;
 }
 
-#l1 {
+#l1{
     width: 50%;
     float: left;
-}
 
-#l2 {
+}
+#l2{
     width: 50%;
     float: right;
+    
 }
-
-#hlo {
+#hlo{
     color: rgb(255, 128, 0);
-    font-size: 22px;
+    font-size: 22px;;
     font-family: Cursive;
     margin-top: 150px;
-    margin-left: 250px;
-}
+    margin-left: 250px;;
 
-#fn,
-#ln {
+}
+#fn,#ln{
     color: rgb(255, 128, 0);
     font-size: 50px;
-}
 
-#intro {
+}
+#intro{
     color: white;
     font-size: 50px;
+    
 }
-
-#role {
+#role{
     color: rgba(255, 255, 255, 0.473);
 }
-
-#btn1,
-#btn2 {
+#btn1,#btn2{
     border-radius: 25px;
     width: 150px;
     height: 50px;
@@ -84,25 +80,24 @@ html {
     font-weight: bold;
 }
 
-#image_ {
+#image_{
     width: 300px;
     height: 500px;
-    margin-left: 60px;
+    margin-left: 60px;;
 }
-
-#about {
-    margin-top: 600px;
+#about{
+    
+    margin-top: 600px;;
+    
 }
-
-.me {
+.me{
     font-family: cursive;
     margin-left: 40%;
     font-size: 36px;
     color: white;
-    font-weight: bold;
+    font-weight:bold;
 }
-
-#mca {
+#mca{
     font-family: cursive;
     padding-left: 150px;
     padding-right: 150px;
@@ -111,16 +106,15 @@ html {
     margin-bottom: 30px;
 }
 
-.me_resume {
+.me_resume{
     font-family: cursive;
     margin-left: 42%;
     margin-top: 120px;
     font-size: 36px;
     color: white;
-    font-weight: bold;
+    font-weight:bold;
 }
-
-#mca_resume {
+#mca_resume{
     font-family: cursive;
     padding-left: 350px;
     padding-right: 300px;
@@ -129,16 +123,15 @@ html {
     margin-bottom: 30px;
 }
 
-.me_skills {
+.me_skills{
     font-family: cursive;
     margin-left: 43%;
     margin-top: 120px;
     font-size: 36px;
     color: white;
-    font-weight: bold;
+    font-weight:bold;
 }
-
-#mca_skills {
+#mca_skills{
     font-family: cursive;
     padding-left: 380px;
     padding-right: 300px;
@@ -147,16 +140,15 @@ html {
     margin-bottom: 30px;
 }
 
-.me_project {
+.me_project{
     font-family: cursive;
     margin-left: 43%;
     margin-top: 120px;
     font-size: 36px;
     color: white;
-    font-weight: bold;
+    font-weight:bold;
 }
-
-#mca_project {
+#mca_project{
     font-family: cursive;
     padding-left: 380px;
     padding-right: 300px;
@@ -164,17 +156,15 @@ html {
     color: rgba(255, 255, 255, 0.473);
     margin-bottom: 30px;
 }
-
-.me_contact {
+.me_contact{
     font-family: cursive;
     margin-left: 39%;
     margin-top: 300px;
     font-size: 36px;
     color: white;
-    font-weight: bold;
+    font-weight:bold;
 }
-
-#mca_contact {
+#mca_contact{
     font-family: cursive;
     padding-left: 380px;
     padding-right: 300px;
@@ -182,25 +172,22 @@ html {
     color: rgba(255, 255, 255, 0.473);
     margin-bottom: 30px;
 }
-
-#project {
-    margin-top: 400px;
+#project{
+    margin-top: 300px;
 }
 
-#content {
+#content{
     color: rgba(255, 255, 255, 0.473);
     margin-left: 460px;
     margin-top: 20px;
     font-size: 16px;
     font-family: cursive;
 }
-
-#title {
+#title{
     color: white;
     font-family: cursive;
 }
-
-#btn3 {
+#btn3{
     border-radius: 25px;
     width: 150px;
     height: 50px;
@@ -212,8 +199,7 @@ html {
     font-weight: bold;
     background-color: orange;
 }
-
-/* Animation numbers */
+/* animation numbers */
 #counter {
     font-size: 36px;
     font-family: 'Arial', sans-serif;
@@ -222,102 +208,106 @@ html {
     color: white;
     animation: countUp 10s ease-out;
     animation-duration: 10s;
-}
+  }
 
-@keyframes countUp {
+  @keyframes countUp {
     from {
-        opacity: 0;
-        transform: translateY(20px);
+      opacity: 0;
+      transform: translateY(20px);
     }
     to {
-        opacity: 1;
-        transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
     }
-}
+  }
 
-#pro {
+  #pro{
     color: white;
-}
+  }
 
-#left_,
-#right_ {
+  #left_,#right_{
     float: left;
     color: white;
     margin-bottom: 10px;
     margin-left: 60px;
     padding-left: 40px;
+    /* padding-right: 10px; */
     padding-top: 10px;
     padding-bottom: 20px;
+    /* border: 1px solid white; */
     width: 40%;
     background-color: rgba(105, 105, 105, 0.185);
     border-radius: 10px;
 }
 
-#sk1,
-#sk2 {
+#sk1,#sk2{
     float: left;
     color: white;
     margin-bottom: 10px;
     margin-left: 60px;
     padding-left: 40px;
+    /* padding-right: 10px; */
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 40%;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: monospace;
-    background-color: rgba(105, 105, 105, 0.185);
-    border-radius: 10px;
-}
-
-#prj1,
-#prj2 {
-    float: left;
-    color: white;
-    margin-bottom: 10px;
-    margin-left: 60px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    /* border: 1px solid white; */
     width: 40%;
     font-size: 20px;
     font-weight: bold;
     font-family: monospace;
     background-color: rgba(105, 105, 105, 0.185);
     border-radius: 10px;
-}
 
-#con1 {
+}
+#prj1,#prj2{
+        float: left;
+        color: white;
+        margin-bottom: 10px;
+        margin-left: 60px;
+        padding-left: 40px;
+        /* padding-right: 10px; */
+        padding-top: 10px;
+        padding-bottom: 20px;
+        /* border: 1px solid white; */
+        width: 40%;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: monospace;
+        background-color: rgba(105, 105, 105, 0.185);
+        border-radius: 10px;
+
+}
+#con1{
     float: left;
-    color: white;
-    margin-bottom: 10px;
-    margin-left: 60px;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 80%;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: monospace;
-    background-color: transparent;
-    border-radius: 10px;
+        color: white;
+        margin-bottom: 10px;
+        margin-left: 60px;
+        padding-left: 40px;
+        /* padding-right: 10px; */
+        padding-top: 10px;
+        padding-bottom: 20px;
+        /* border: 1px solid white; */
+        width: 80%;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: monospace;
+        background-color: transparent;
+        border-radius: 10px;
+
 }
 
-#year {
+#year{
     color: orange;
     font-size: 22px;
     font-weight: bold;
     font-family: cursive;
 }
-
-#edu {
+#edu{
     color: white;
     font-size: 20px;
     font-weight: bold;
     font-family: monospace;
 }
-
-#clg {
+#clg{
     color: rgba(255, 255, 255, 0.473);
     font-size: 14px;
     font-weight: bold;
@@ -328,70 +318,70 @@ progress {
     width: 300px;
     height: 10px;
     appearance: none;
-}
+  }
 
-progress::-webkit-progress-bar {
+  progress::-webkit-progress-bar {
     background-color: #ddd;
     border-radius: 10px;
-}
+  }
 
-progress::-webkit-progress-value {
-    background-color: #FFA500;
+  progress::-webkit-progress-value {
+    background-color: #FFA500; /* Orange color */
     border-radius: 10px;
-}
+  }
 
-progress::-moz-progress-bar {
-    background-color: #FFA500;
+  progress::-moz-progress-bar {
+    background-color: #FFA500; /* Orange color */
     border-radius: 10px;
-}
+  }
 
-progress::-ms-fill {
-    background-color: #FFA500;
+  progress::-ms-fill {
+    background-color: #FFA500; /* Orange color */
     border-radius: 10px;
-}
+  }
 
-progress::before {
+  progress::before {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     color: #333;
     font-weight: bold;
-}
+  }
+  #about_proj{
+        color: rgba(255, 255, 255, 0.473);
+        font-size: 14px;
+        font-weight: bold;
+        font-family: monospace;
+        padding-right: 20px;;
+  }
 
-#about_proj {
-    color: rgba(255, 255, 255, 0.473);
-    font-size: 14px;
-    font-weight: bold;
-    font-family: monospace;
-    padding-right: 20px;
-}
 
-/* Contact Me Section */
-header {
+  /* contact me */
+  header {
     background-color: #111;
     color: #fff;
     padding: 10px;
     text-align: center;
-}
+  }
 
-section {
+  section {
     max-width: 600px;
     margin: 20px auto;
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-}
+  }
 
-label {
+  label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-}
+  }
 
-input,
-textarea {
+  input,
+  textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 16px;
@@ -400,91 +390,94 @@ textarea {
     border-radius: 5px;
     background-color: #333;
     color: #fff;
-}
+  }
 
-button {
+  button {
     background-color: #111;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
+  }
 
-button:hover {
+  button:hover {
     background-color: #333;
-}
+  }
 
-/* Footer */
-#foot {
+  /* footern */
+  #foot{
     border: 0vh;
     margin-top: 30px;
     margin: 0;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.397);
+    /* background-color: rgba(105, 105, 105, 0.185); */
     background-color: transparent;
     font-family: 'Courier New', Courier, monospace;
-}
+  }
 
-/* Media Query */
-@media (max-width: 480px) {
-    body {
+
+
+  /* CODE FOR MEDIA QUERY */
+  @media (max-width: 480px){
+    body{
         background-color: black;
     }
-
-    html {
+    html{
         scroll-behavior: smooth;
         scroll-padding: 2rem;
     }
-
-    .nav {
+    
+    .nav{
         color: white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-decoration: none;
+        /* padding-left: 10px; */
         font-weight: bold;
         font-size: 14px;
     }
-
-    .nav:hover {
+    .nav:hover{
         color: rgb(255, 128, 0);
     }
-
-    #a {
+    #a{
         padding-top: 30px;
         margin-left: 10%;
+        /* margin-right: 50px; */
     }
-
-    #l1 {
+    
+    #l1{
         width: 50%;
         float: left;
+    
     }
-
-    #l2 {
+    #l2{
         width: 50%;
         float: right;
+        
     }
-
-    #hlo {
+    #hlo{
         color: rgb(255, 128, 0);
         font-size: 16px;
         font-family: Cursive;
         margin-top: 150px;
-        margin-left: 50px;
+        margin-left: 50px;;
+    
     }
-
-    #fn,
-    #ln {
+    #fn,#ln{
         color: rgb(255, 128, 0);
         font-size: 30px;
+    
     }
-
-    #intro {
+    #intro{
         color: white;
         font-size: 30px;
+        
     }
-
-    #btn1,
-    #btn2 {
+    #role{
+        color: rgba(255, 255, 255, 0.473);
+    }
+    #btn1,#btn2{
         border-radius: 25px;
         font-size: 10px;
         width: 80px;
@@ -495,43 +488,44 @@ button:hover {
         color: white;
         border: 0vh;
         font-weight: bold;
+        padding-bottom: 20px;
     }
-
-    #image_ {
+    
+    #image_{
         width: 300px;
         height: 500px;
-        margin-left: 100px;
+        margin-left: 100px;;
     }
-
-    #about {
-        margin-top: 600px;
+    #about{
+        
+        margin-top: 600px;;
+        
     }
-
-    .me {
+    .me{
         font-family: cursive;
         margin-left: 50%;
         font-size: 36px;
         color: white;
-        font-weight: bold;
+        font-weight:bold;
     }
-
-    #mca {
+    #mca{
         font-family: cursive;
+        /* padding-left: 10%;
+        padding-right: 5%; */
         font-size: 12px;
         color: rgba(255, 255, 255, 0.473);
         margin-bottom: 30px;
     }
-
-    .me_resume {
+    
+    .me_resume{
         font-family: cursive;
         margin-left: 50%;
         margin-top: 120px;
         font-size: 36px;
         color: white;
-        font-weight: bold;
+        font-weight:bold;
     }
-
-    #mca_resume {
+    #mca_resume{
         font-family: cursive;
         padding-left: 10%;
         padding-right: 5%;
@@ -539,17 +533,16 @@ button:hover {
         color: rgba(255, 255, 255, 0.473);
         margin-bottom: 30px;
     }
-
-    .me_skills {
+    
+    .me_skills{
         font-family: cursive;
         margin-left: 43%;
         margin-top: 120px;
         font-size: 36px;
         color: white;
-        font-weight: bold;
+        font-weight:bold;
     }
-
-    #mca_skills {
+    #mca_skills{
         font-family: cursive;
         padding-left: 10%;
         padding-right: 5%;
@@ -557,17 +550,16 @@ button:hover {
         color: rgba(255, 255, 255, 0.473);
         margin-bottom: 30px;
     }
-
-    .me_project {
+    
+    .me_project{
         font-family: cursive;
         margin-left: 40%;
         margin-top: 120px;
         font-size: 36px;
         color: white;
-        font-weight: bold;
+        font-weight:bold;
     }
-
-    #mca_project {
+    #mca_project{
         font-family: cursive;
         padding-left: 10%;
         padding-right: 5%;
@@ -575,17 +567,15 @@ button:hover {
         color: rgba(255, 255, 255, 0.473);
         margin-bottom: 30px;
     }
-
-    .me_contact {
+    .me_contact{
         font-family: cursive;
         margin-left: 39%;
         margin-top: 300px;
         font-size: 36px;
         color: white;
-        font-weight: bold;
+        font-weight:bold;
     }
-
-    #mca_contact {
+    #mca_contact{
         font-family: cursive;
         padding-left: 380px;
         padding-right: 300px;
@@ -593,25 +583,22 @@ button:hover {
         color: rgba(255, 255, 255, 0.473);
         margin-bottom: 30px;
     }
-
-    #project {
+    #project{
         margin-top: 400px;
     }
-
-    #content {
+    
+    #content{
         color: rgba(255, 255, 255, 0.473);
         margin-left: 30%;
         margin-top: 20px;
         font-size: 14px;
         font-family: cursive;
     }
-
-    #title {
+    #title{
         color: white;
         font-family: cursive;
     }
-
-    #btn3 {
+    #btn3{
         border-radius: 25px;
         width: 150px;
         height: 50px;
@@ -623,160 +610,189 @@ button:hover {
         font-weight: bold;
         background-color: orange;
     }
-
-    #left_,
-    #right_ {
+    /* animation numbers */
+    #counter {
+        font-size: 36px;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        animation: countUp 10s ease-out;
+        animation-duration: 10s;
+      }
+    
+      @keyframes countUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    
+      #pro{
+        color: white;
+      }
+    
+      #left_,#right_{
         float: left;
         color: white;
         margin-bottom: 10px;
         margin-left: 200px;
         padding-left: 20px;
+        /* padding-right: 10px; */
         padding-top: 10px;
         padding-bottom: 20px;
+        /* border: 1px solid white; */
         width: 50%;
         background-color: rgba(105, 105, 105, 0.185);
         border-radius: 10px;
     }
-
-    #sk1,
-    #sk2 {
+    
+    #sk1,#sk2{
         float: left;
         color: white;
         margin-bottom: 10px;
         margin-left: 60px;
         padding-left: 40px;
+        /* padding-right: 10px; */
         padding-top: 10px;
         padding-bottom: 20px;
+        /* border: 1px solid white; */
         width: 100%;
         font-size: 20px;
         font-weight: bold;
         font-family: monospace;
         background-color: rgba(105, 105, 105, 0.185);
         border-radius: 10px;
+    
     }
-
-    #prj1,
-    #prj2 {
+    #prj1,#prj2{
+            float: left;
+            color: white;
+            margin-bottom: 10px;
+            margin-left: 60px;
+            padding-left: 40px;
+            /* padding-right: 10px; */
+            padding-top: 10px;
+            padding-bottom: 20px;
+            /* border: 1px solid white; */
+            width: 80%;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            background-color: rgba(105, 105, 105, 0.185);
+            border-radius: 10px;
+    
+    }
+    #con1{
         float: left;
-        color: white;
-        margin-bottom: 10px;
-        margin-left: 60px;
-        padding-left: 40px;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        width: 80%;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: monospace;
-        background-color: rgba(105, 105, 105, 0.185);
-        border-radius: 10px;
+            color: white;
+            margin-bottom: 10px;
+            margin-left: 60px;
+            padding-left: 40px;
+            /* padding-right: 10px; */
+            padding-top: 10px;
+            padding-bottom: 20px;
+            /* border: 1px solid white; */
+            width: 80%;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: monospace;
+            background-color: transparent;
+            border-radius: 10px;
+    
     }
-
-    #con1 {
-        float: left;
-        color: white;
-        margin-bottom: 10px;
-        margin-left: 60px;
-        padding-left: 40px;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        width: 80%;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: monospace;
-        background-color: transparent;
-        border-radius: 10px;
-    }
-
-    #year {
+    
+    #year{
         color: orange;
         font-size: 22px;
         font-weight: bold;
         font-family: cursive;
     }
-
-    #edu {
+    #edu{
         color: white;
         font-size: 20px;
         font-weight: bold;
         font-family: monospace;
     }
-
-    #clg {
+    #clg{
         color: rgba(255, 255, 255, 0.473);
         font-size: 14px;
         font-weight: bold;
         font-family: monospace;
     }
-
+    
     progress {
         width: 300px;
         height: 10px;
         appearance: none;
-    }
-
-    progress::-webkit-progress-bar {
+      }
+    
+      progress::-webkit-progress-bar {
         background-color: #ddd;
         border-radius: 10px;
-    }
-
-    progress::-webkit-progress-value {
-        background-color: #FFA500;
+      }
+    
+      progress::-webkit-progress-value {
+        background-color: #FFA500; /* Orange color */
         border-radius: 10px;
-    }
-
-    progress::-moz-progress-bar {
-        background-color: #FFA500;
+      }
+    
+      progress::-moz-progress-bar {
+        background-color: #FFA500; /* Orange color */
         border-radius: 10px;
-    }
-
-    progress::-ms-fill {
-        background-color: #FFA500;
+      }
+    
+      progress::-ms-fill {
+        background-color: #FFA500; /* Orange color */
         border-radius: 10px;
-    }
-
-    progress::before {
+      }
+    
+      progress::before {
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
         color: #333;
         font-weight: bold;
-    }
-
-    #about_proj {
-        color: rgba(255, 255, 255, 0.473);
-        font-size: 14px;
-        font-weight: bold;
-        font-family: monospace;
-        padding-right: 20px;
-    }
-
-    /* Contact Me Section */
-    header {
+      }
+      #about_proj{
+            color: rgba(255, 255, 255, 0.473);
+            font-size: 14px;
+            font-weight: bold;
+            font-family: monospace;
+            padding-right: 20px;;
+      }
+    
+    
+      /* contact me */
+      header {
         background-color: #111;
         color: #fff;
         padding: 10px;
         text-align: center;
-    }
-
-    section {
-        max-width: 300px;
+      }
+    
+      section {
+        max-width: 600px;
         margin: 20px auto;
         background-color: #222;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    }
-
-    label {
+      }
+    
+      label {
         display: block;
         margin-bottom: 8px;
         font-weight: bold;
-    }
-
-    input,
-    textarea {
+      }
+    
+      input,
+      textarea {
         width: 100%;
         padding: 10px;
         margin-bottom: 16px;
@@ -785,29 +801,30 @@ button:hover {
         border-radius: 5px;
         background-color: #333;
         color: #fff;
-    }
-
-    button {
+      }
+    
+      button {
         background-color: #111;
         color: #fff;
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-    }
-
-    button:hover {
+      }
+    
+      button:hover {
         background-color: #333;
-    }
-
-    /* Footer */
-    #foot {
+      }
+    
+      /* footern */
+      #foot{
         border: 0vh;
         margin-top: 30px;
         margin: 0;
-        font-size: 12px;
+        font-size: 14px;
         color: rgba(255, 255, 255, 0.397);
+        /* background-color: rgba(105, 105, 105, 0.185); */
         background-color: transparent;
         font-family: 'Courier New', Courier, monospace;
-    }
-}
+      }
+  }
