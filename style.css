@@ -3,7 +3,7 @@ body{
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding: 5rem;
+    scroll-padding: 2rem;
 }
 
 
@@ -81,9 +81,11 @@ html{
 }
 
 #image_{
-    width: 300px;
-    height: 500px;
-    margin-left: 60px;;
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 80px;
+    opacity: 0.5;
 }
 #about{
     
@@ -99,13 +101,31 @@ html{
 }
 #mca{
     font-family: cursive;
-    padding-left: 150px;
-    padding-right: 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
     font-size: 16px;
     color: rgba(255, 255, 255, 0.473);
     margin-bottom: 30px;
+    background-color: rgba(105, 105, 105, 0.185);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 }
+.con{
+    background-color: rgba(105, 105, 105, 0.185);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 
+}
 .me_resume{
     font-family: cursive;
     margin-left: 42%;
@@ -181,15 +201,17 @@ html{
 
 #content{
     color: rgba(255, 255, 255, 0.473);
-    margin-left: 460px;
+    margin-left: 35%;
     margin-top: 20px;
     font-size: 16px;
     font-family: cursive;
 }
+
 #title{
     color: white;
     font-family: cursive;
 }
+
 #btn3{
     border-radius: 25px;
     width: 150px;
